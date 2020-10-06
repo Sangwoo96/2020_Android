@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 arr.add(getText); //마지막 입력을 배열에 추가
                 itmp1 = Integer.parseInt(arr.get(0));
                 for(String i : arr){
-                    //System.out.println(i);
+                    System.out.println(i);
                     if(i=="+"){tmp2 = "+";}
                     else if(i=="-"){tmp2 = "-";}
                     else if(i=="/"){tmp2 = "/";}
